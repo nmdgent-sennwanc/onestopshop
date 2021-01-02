@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://use.typekit.net/ugo0azz.css");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://use.typekit.net/ugo0azz.css");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://use.typekit.net/ugo0azz.css");
+h1, h2, h3, h4, h5, h6 {
+  font-family: "filicudi-solid", sans-serif;
+}
+
+h1 {
+  color: #304269;
+}
+
+h2 {
+  color: #91bed4;
+}
+
+h3, h4, h5, h6 {
+  color: #bddbf2;
+}
+
+p, span {
+  font-family: "Catamaran", sans-serif;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.navigation {
+  height: 20vh;
+  margin-bottom: 2rem;
+}
+
+.navigation .nav-logo {
+  height: 100px;
+}
+
+.navigation .main-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation .main-navigation ul li {
+  list-style-type: none;
+  margin: 0px 1rem;
+}
+
+.navigation .main-navigation ul li a {
+  color: #91bed4;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "filicudi-solid", sans-serif;
+  font-weight: bold;
+}
+
+.navigation .main-navigation ul li a:hover {
+  color: #304269;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "filicudi-solid", sans-serif;
+}
+
+h1 {
+  color: #304269;
+}
+
+h2 {
+  color: #91bed4;
+}
+
+h3, h4, h5, h6 {
+  color: #bddbf2;
+}
+
+p, span {
+  font-family: "Catamaran", sans-serif;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#welkom {
+  height: 80vh;
+}
+
+#problemen {
+  height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "filicudi-solid", sans-serif;
+}
+
+h1 {
+  color: #304269;
+}
+
+h2 {
+  color: #91bed4;
+}
+
+h3, h4, h5, h6 {
+  color: #bddbf2;
+}
+
+p, span {
+  font-family: "Catamaran", sans-serif;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.welkom-images {
+  height: 300px;
+}
+
+.welkom-images img {
+  height: 100%;
+}
+
+.problems-images {
+  height: 400px;
+}
+
+.problems-images img {
+  height: 100%;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.persona-images {
+  height: 400px;
+}
+
+.persona-images img {
+  height: 100%;
+}
+/*# sourceMappingURL=index.css.map */

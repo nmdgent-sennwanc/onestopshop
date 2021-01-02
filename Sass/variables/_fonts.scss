@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+@import url("https://use.typekit.net/ugo0azz.css");
+
+$headers: 'filicudi-solid', sans-serif;
+$basic-font: 'Catamaran', sans-serif;
+
+// header basics
+h1, h2, h3, h4, h5, h6{
+	font-family: $headers;
+}
+
+h1{
+	color: $color-bluedark;
+}
+h2{
+	color: $color-bluegreen;
+}
+h3, h4, h5, h6{
+	color: $color-bluelight;
+}
+
+// normal text basics
+p, span{
+	font-family: $basic-font;
+}
+
+// alignment
+.right-align{
+	text-align: right;
+}

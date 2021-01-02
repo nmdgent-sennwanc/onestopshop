@@ -1,0 +1,32 @@
+@import '../variables/index';
+.navigation{
+	height: 20vh;
+	margin-bottom: $gutterdouble;
+	.nav-logo{
+		height: 100px;
+	}
+
+	.main-navigation{
+		ul{
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			li{
+				list-style-type: none;
+				margin: 0px $gutter;
+				a{
+					color: $color-bluegreen;
+					font-size: 1.5rem;
+					text-decoration: none;
+					font-family: $headers;
+					font-weight: bold;
+				}
+				a:hover{
+					color: $color-bluedark;
+				}
+			}
+		}	
+	}
+	
+}
+
