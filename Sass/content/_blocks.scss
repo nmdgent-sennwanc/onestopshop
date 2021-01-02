@@ -1,22 +1,41 @@
 @import '../variables/index';
 
-#welkom{
-	min-height: 80vh;
-	position: relative;
-}
-
-#problemen{
+#problemen, #prototype{
 	min-height: 100vh;
 
 	h2{
 		margin-bottom: $gutterdouble;
 	}
-	.col{
-		margin: $gutter 0;
+	.row{
+		margin: $gutterdouble 0;
 
 		span{
 			color: $color-orangedark;
 			font-weight: bold;
 		}
+	}
+}
+
+@media screen and (min-width: 900px) {
+	#welkom{
+		min-height: 80vh;
+		position: relative;
+	}
+}
+
+.persona-second {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.persona-text {
+	ul{
+		list-style: none;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.persona-second {
+		flex-direction: row;
 	}
 }

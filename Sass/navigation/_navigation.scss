@@ -1,7 +1,9 @@
 @import '../variables/index';
 .navigation{
-	height: 20vh;
 	margin-bottom: $gutterdouble;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	.nav-logo{
 		height: 100px;
 	}
@@ -28,5 +30,20 @@
 		}	
 	}
 	
+}
+.nav-link{
+	color: $color-bluegreen;
+	font-size: 1.5rem;
+	text-decoration: none;
+	font-family: $headers;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+@media screen and (min-width: 900px) {
+	.navigation{
+		height: 20vh;
+	}
 }
 

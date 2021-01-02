@@ -31,8 +31,16 @@ p, span {
 }
 
 .navigation {
-  height: 20vh;
   margin-bottom: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navigation .nav-logo {
@@ -68,6 +76,21 @@ p, span {
   color: #304269;
 }
 
+.nav-link {
+  color: #91bed4;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "filicudi-solid", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+  .navigation {
+    height: 20vh;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "filicudi-solid", sans-serif;
 }
@@ -92,26 +115,51 @@ p, span {
   text-align: right;
 }
 
-#welkom {
-  min-height: 80vh;
-  position: relative;
-}
-
-#problemen {
+#problemen, #prototype {
   min-height: 100vh;
 }
 
-#problemen h2 {
+#problemen h2, #prototype h2 {
   margin-bottom: 2rem;
 }
 
-#problemen .col {
-  margin: 1rem 0;
+#problemen .row, #prototype .row {
+  margin: 2rem 0;
 }
 
-#problemen .col span {
+#problemen .row span, #prototype .row span {
   color: #f58c42;
   font-weight: bold;
+}
+
+@media screen and (min-width: 900px) {
+  #welkom {
+    min-height: 80vh;
+    position: relative;
+  }
+}
+
+.persona-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.persona-text ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 900px) {
+  .persona-second {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -141,11 +189,14 @@ p, span {
 .welkom-colourbox {
   position: absolute;
   right: 0;
-  top: 0;
   width: 55%;
-  height: 60vh;
-  background-color: #ffba8d;
   z-index: -1;
+}
+
+@media screen and (min-width: 900px) {
+  .welkom-colourbox {
+    top: 0;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -178,10 +229,6 @@ p, span {
 
 .welkom-images img {
   width: 100%;
-}
-
-.problems-images {
-  width: 55vh;
 }
 
 .problems-images img {
