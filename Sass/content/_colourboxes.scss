@@ -1,0 +1,11 @@
+@import '../variables/index';
+
+.welkom-colourbox{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 55%;
+	height: 60vh;
+	background-color: $color-orangelight;
+	z-index: -1;
+}

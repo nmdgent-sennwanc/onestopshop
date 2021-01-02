@@ -4,6 +4,8 @@
 @import url("https://use.typekit.net/ugo0azz.css");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
 @import url("https://use.typekit.net/ugo0azz.css");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://use.typekit.net/ugo0azz.css");
 h1, h2, h3, h4, h5, h6 {
   font-family: "filicudi-solid", sans-serif;
 }
@@ -91,11 +93,59 @@ p, span {
 }
 
 #welkom {
-  height: 80vh;
+  min-height: 80vh;
+  position: relative;
 }
 
 #problemen {
-  height: 100vh;
+  min-height: 100vh;
+}
+
+#problemen h2 {
+  margin-bottom: 2rem;
+}
+
+#problemen .col {
+  margin: 1rem 0;
+}
+
+#problemen .col span {
+  color: #f58c42;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "filicudi-solid", sans-serif;
+}
+
+h1 {
+  color: #304269;
+}
+
+h2 {
+  color: #91bed4;
+}
+
+h3, h4, h5, h6 {
+  color: #bddbf2;
+}
+
+p, span {
+  font-family: "Catamaran", sans-serif;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.welkom-colourbox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55%;
+  height: 60vh;
+  background-color: #ffba8d;
+  z-index: -1;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,19 +173,19 @@ p, span {
 }
 
 .welkom-images {
-  height: 300px;
+  width: 25vh;
 }
 
 .welkom-images img {
-  height: 100%;
+  width: 100%;
 }
 
 .problems-images {
-  height: 400px;
+  width: 55vh;
 }
 
 .problems-images img {
-  height: 100%;
+  width: 100%;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

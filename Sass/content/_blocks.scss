@@ -1,9 +1,22 @@
 @import '../variables/index';
 
 #welkom{
-	height: 80vh;
+	min-height: 80vh;
+	position: relative;
 }
 
 #problemen{
 	min-height: 100vh;
+
+	h2{
+		margin-bottom: $gutterdouble;
+	}
+	.col{
+		margin: $gutter 0;
+
+		span{
+			color: $color-orangedark;
+			font-weight: bold;
+		}
+	}
 }
