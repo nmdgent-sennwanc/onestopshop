@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 538.9 389.3" style="enable-background:new 0 0 538.9 389.3;" xml:space="preserve">
+	 viewBox="0 0 1176.1 740.1" style="enable-background:new 0 0 1176.1 740.1;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{fill:#FFFFFF;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st3{fill:#FFFFFF;stroke:#F8B98F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#91BED4;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#2F4269;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st7{fill:#FFFFFF;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st8{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st9{fill:#2F4269;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st10{fill:#BEDBF2;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st11{fill:#F8B98F;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st12{fill:#F28B43;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st13{fill:#91BED4;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
-	.st14{fill:#FFFFFF;stroke:#BEDBF2;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st15{fill:none;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st16{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st17{fill:#F28B43;}
+	.st3{fill:#FFFFFF;}
+	.st4{fill:#FFFFFF;stroke:#F8B98F;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#91BED4;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#2F4269;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st8{fill:#FFFFFF;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st9{fill:none;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st10{fill:#2F4269;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st11{fill:#BEDBF2;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st12{fill:#F8B98F;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st13{fill:#F28B43;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st14{fill:#91BED4;stroke:#FFFFFF;stroke-width:4;stroke-miterlimit:10;}
+	.st15{fill:#FFFFFF;stroke:#BEDBF2;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#F28B43;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st18{fill:#F28B43;}
 </style>
 <g id="Guide." class="st0">
 </g>
 <g id="Layer_1">
+	<rect class="st3" width="1176.1" height="740.2"/>
 </g>
 <g id="Layer_3">
-	<line class="st1" x1="261.6" y1="205.4" x2="261.6" y2="318.8"/>
-	<line class="st1" x1="261.6" y1="70.9" x2="261.6" y2="184.3"/>
-	<path class="st2" d="M261.6,184.3c-31.3,0-56.7-25.4-56.7-56.7s25.4-56.7,56.7-56.7s56.7,25.4,56.7,56.7"/>
-	<line class="st2" x1="204.9" y1="194.6" x2="318.3" y2="194.6"/>
-	<circle class="st2" cx="261.6" cy="262.1" r="56.7"/>
-	<path class="st2" d="M318.3,205c0,15.7-12.8,28.5-28.5,28.5h-28.5v-28.2"/>
-	<path class="st2" d="M261.2,184.3v-28.9h28.5c15.7,0,28.5,12.8,28.5,28.5v0"/>
+	<line class="st1" x1="588.7" y1="376.9" x2="588.7" y2="490.3"/>
+	<line class="st1" x1="588.7" y1="242.4" x2="588.7" y2="355.8"/>
+	<path class="st2" d="M588.7,355.8c-31.3,0-56.7-25.4-56.7-56.7s25.4-56.7,56.7-56.7c31.3,0,56.7,25.4,56.7,56.7"/>
+	<line class="st2" x1="532" y1="366.2" x2="645.4" y2="366.2"/>
+	<circle class="st2" cx="588.7" cy="433.6" r="56.7"/>
+	<path class="st2" d="M645.4,376.6c0,15.7-12.8,28.5-28.5,28.5h-28.5v-28.2"/>
+	<path class="st2" d="M588.4,355.8v-28.9h28.5c15.7,0,28.5,12.8,28.5,28.5v0"/>
 </g>
 <g id="Layer_6">
 </g>
@@ -47,18 +49,18 @@
 </g>
 <g id="Layer_9">
 	<g>
-		<path class="st16" d="M422.7,70.9v113.4h-29.4l-33.8-56v56h-29.7V70.9h29.7l33.6,55.8V70.9H422.7z"/>
-		<path class="st16" d="M473.3,99v15h37.9v26.6h-37.9v15.5h50.6v28.1h-80.2V70.9h80.2V99H473.3z"/>
+		<path class="st17" d="M749.9,242.4v113.4h-29.4l-33.8-56v56H657V242.4h29.7l33.6,55.8v-55.8H749.9z"/>
+		<path class="st17" d="M800.5,270.5v15h37.9v26.6h-37.9v15.5H851v28.1h-80.2V242.4H851v28.1H800.5z"/>
 	</g>
 	<g>
-		<path class="st16" d="M417.3,247.7c0,41.6-36.7,41.6-57,41.6H359v28.5h-29.2V206.3h30C380.2,206.3,417.3,206.3,417.3,247.7z
-			 M387.3,247.5c0-13.7-11.4-13.7-19.9-13.7H359v28.1h8.4C376.6,261.9,387.3,261.9,387.3,247.5z"/>
+		<path class="st17" d="M744.5,419.2c0,41.6-36.7,41.6-57,41.6h-1.3v28.5H657V377.8h30C707.4,377.8,744.5,377.8,744.5,419.2z
+			 M714.5,419c0-13.7-11.4-13.7-19.9-13.7h-8.4v28.1h8.4C703.7,433.4,714.5,433.4,714.5,419z"/>
 	</g>
 	<g>
-		<path class="st16" d="M12.7,305.7l12.1-24c9.1,6.6,20,10.2,28.9,10.2c8.1,0,11.9-2.3,11.9-6c0-12.6-50-13.4-50-48.7
-			c0-18.5,15.1-32.1,39.6-32.1c16,0,27.4,4.9,38.3,12.1l-11.7,23.6c-8.1-4.9-17-8.9-26.8-8.9c-6.8,0-9.8,2.6-9.8,5.5
-			c0,13,50,10.6,50,47.9c0,20.6-15.5,33.4-40.2,33.4C38.6,318.7,24,314,12.7,305.7z"/>
-		<path class="st16" d="M193.3,234.2h-24.7v83h-28.9v-83H115v-27.7h78.3V234.2z"/>
+		<path class="st17" d="M339.8,477.2l12.1-24c9.1,6.6,20,10.2,28.9,10.2c8.1,0,11.9-2.3,11.9-6c0-12.6-50-13.4-50-48.7
+			c0-18.5,15.1-32.1,39.6-32.1c16,0,27.4,4.9,38.3,12.1L409,412.3c-8.1-4.9-17-8.9-26.8-8.9c-6.8,0-9.8,2.6-9.8,5.5
+			c0,13,50,10.6,50,47.9c0,20.6-15.5,33.4-40.2,33.4C365.8,490.2,351.1,485.5,339.8,477.2z"/>
+		<path class="st17" d="M520.5,405.7h-24.7v83h-28.9v-83h-24.7V378h78.3V405.7z"/>
 	</g>
 </g>
 </svg>
