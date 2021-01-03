@@ -9,7 +9,7 @@
 }
 
 // PROBLEMEN
-.problems-images{
+.problems-images, .persona-images{
 	width: 30vh;
 	margin-bottom: $gutter;
 	img{
@@ -28,17 +28,20 @@
 
 // DOELGROEP
 .persona-images{
-	height: 400px;
-	img{
-		height: 100%;
-	}
+	display: flex;
+	align-items: flex-end;
+	width: 30vh;
 }
-
 
 @media screen and (min-width: 992px){
 	// WELKOM
 	.welkom-images{
 		width: 25vh;
+	}
+
+	// DOELGROEP
+	.persona-images{
+		width:40vh;
 	}
 }
 

@@ -28,6 +28,10 @@ p, span {
   font-family: "Catamaran", sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .right-align {
   text-align: right;
 }
@@ -117,6 +121,10 @@ p, span {
   font-family: "Catamaran", sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .right-align {
   text-align: right;
 }
@@ -130,18 +138,71 @@ p, span {
           justify-content: center;
 }
 
-.persona-second {
+.row1-doelgroep {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.row2-doelgroep {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
           flex-direction: column-reverse;
 }
 
-.persona-text ul {
+.persona-text ul, .persona-text2 ul {
   list-style: none;
+  margin-left: -2rem;
+}
+
+.persona-text ul li, .persona-text2 ul li {
+  margin: 10px 0;
+}
+
+.persona-text ul li i, .persona-text2 ul li i {
+  text-align: center;
+  margin-right: 1rem;
+  width: 20px;
+  color: #bddbf2;
+}
+
+.persona-text ul .coloured, .persona-text2 ul .coloured {
+  color: #bddbf2;
+}
+
+.persona-text2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.persona-text2 ul {
+  text-align: right;
+}
+
+.persona-text2 ul li i {
+  margin-right: 0;
+  margin-left: 1rem;
 }
 
 @media screen and (min-width: 1200px) {
@@ -160,8 +221,16 @@ p, span {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .persona-second {
+@media screen and (min-width: 992px) {
+  .row1-doelgroep {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row2-doelgroep {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -189,6 +258,10 @@ p, span {
   font-family: "Catamaran", sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .right-align {
   text-align: right;
 }
@@ -211,7 +284,7 @@ p, span {
 }
 
 #problemen .row span, #doelgroep .row span {
-  color: #91bed4;
+  color: #bddbf2;
   font-size: 1.25rem;
   text-align: center;
 }
@@ -244,6 +317,10 @@ h3, h4, h5, h6 {
 
 p, span {
   font-family: "Catamaran", sans-serif;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .right-align {
@@ -289,6 +366,10 @@ p, span {
   font-family: "Catamaran", sans-serif;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .right-align {
   text-align: right;
 }
@@ -301,12 +382,12 @@ p, span {
   width: 100%;
 }
 
-.problems-images {
+.problems-images, .persona-images {
   width: 30vh;
   margin-bottom: 1rem;
 }
 
-.problems-images img {
+.problems-images img, .persona-images img {
   width: 100%;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -322,16 +403,21 @@ p, span {
 }
 
 .persona-images {
-  height: 400px;
-}
-
-.persona-images img {
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 30vh;
 }
 
 @media screen and (min-width: 992px) {
   .welkom-images {
     width: 25vh;
+  }
+  .persona-images {
+    width: 40vh;
   }
 }
 /*# sourceMappingURL=index.css.map */

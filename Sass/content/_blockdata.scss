@@ -8,17 +8,55 @@
 
 
 // DOELGROEP
-.persona-second {
-	display: flex;
+.row1-doelgroep {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.row2-doelgroep {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 	flex-direction: column-reverse;
 }
 
-.persona-text {
+.persona-text, .persona-text2 {
 	ul{
-		list-style: none;
+        list-style: none;
+        margin-left: -2rem;
+        li{
+           margin: 10px 0;
+           
+            i{
+                text-align: center;
+                margin-right: $gutter;
+                width: 20px;
+                color: $color-bluelight;
+            
+            }
+        }
+
+        .coloured{
+            color: $color-bluelight;
+        }
 	}
 }
 
+.persona-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    ul{
+        text-align: right;
+        li{ 
+            i{
+                margin-right: 0;
+                margin-left: $gutter;
+            }
+        }
+    }
+}
 
 @media screen and (min-width: 1200px) {
     // PROBLEMEN
@@ -31,9 +69,14 @@
     }
 } 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     // DOELGROEP
-	.persona-second {
-		flex-direction: row;
-	}
-} 
+    .row1-doelgroep{
+        justify-content: space-between;
+    }
+    .row2-doelgroep{
+        justify-content: space-between;
+        flex-direction: row;
+        
+    }
+}
