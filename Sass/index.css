@@ -213,6 +213,7 @@ p, span {
 #problemen .row span, #doelgroep .row span {
   color: #91bed4;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 #welkom {
