@@ -1,5 +1,12 @@
 @import '../variables/index';
 
+// PROBLEMEN
+.row1-problemen, .row2-problemen{
+    display: flex;
+    justify-content: center;
+}
+
+
 // DOELGROEP
 .persona-second {
 	display: flex;
@@ -12,8 +19,19 @@
 	}
 }
 
+
+@media screen and (min-width: 1200px) {
+    // PROBLEMEN
+	.row1-problemen{
+        justify-content: space-between;
+    }
+    .row2-problemen{
+        justify-content: space-between;
+        align-items: center;
+    }
+} 
+
 @media screen and (min-width: 768px) {
-    
     // DOELGROEP
 	.persona-second {
 		flex-direction: row;

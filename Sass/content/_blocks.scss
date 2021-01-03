@@ -1,17 +1,21 @@
 @import '../variables/index';
 
-#problemen, #prototype{
+#problemen, #doelgroep{
 	min-height: 100vh;
 
-	h2{
-		margin-bottom: $gutterdouble;
-	}
 	.row{
 		margin: $gutterdouble 0;
+		width: 100%;
+		h2{
+			margin-bottom: $gutterdouble;
+		}
 
+		h3{
+			margin-bottom: $gutter;
+		}
 		span{
-			color: $color-orangedark;
-			font-weight: bold;
+			color: $color-bluegreen;
+			font-size: 1.25rem;
 		}
 	}
 }

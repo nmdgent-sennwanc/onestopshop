@@ -1,5 +1,6 @@
 @import '../variables/index';
 
+// WELKOM
 .welkom-images{
 	width: 20vh;
 	img{
@@ -7,14 +8,25 @@
 	}
 }
 
+// PROBLEMEN
 .problems-images{
-	// width: 55vh;
+	width: 30vh;
+	margin-bottom: $gutter;
 	img{
 		width: 100%;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 }
 
+.graph-images{
+	width: 55vh;
+	img{
+		width: 100%;
+		margin-bottom: $gutter;
+	}
+}
+
+// DOELGROEP
 .persona-images{
 	height: 400px;
 	img{
@@ -24,6 +36,7 @@
 
 
 @media screen and (min-width: 992px){
+	// WELKOM
 	.welkom-images{
 		width: 25vh;
 	}
