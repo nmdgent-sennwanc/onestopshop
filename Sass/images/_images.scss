@@ -1,7 +1,7 @@
 @import '../variables/index';
 
 .welkom-images{
-	width: 25vh;
+	width: 20vh;
 	img{
 		width: 100%;
 	}
@@ -23,4 +23,9 @@
 }
 
 
+@media screen and (min-width: 992px){
+	.welkom-images{
+		width: 25vh;
+	}
+}
 

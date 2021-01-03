@@ -16,26 +16,13 @@
 	}
 }
 
-@media screen and (min-width: 900px) {
+#welkom{
+	min-height: 70vh;
+	position: relative;
+}
+
+@media screen and (min-width: 992px) {
 	#welkom{
 		min-height: 80vh;
-		position: relative;
-	}
-}
-
-.persona-second {
-	display: flex;
-	flex-direction: column-reverse;
-}
-
-.persona-text {
-	ul{
-		list-style: none;
-	}
-}
-
-@media screen and (min-width: 900px) {
-	.persona-second {
-		flex-direction: row;
 	}
 }

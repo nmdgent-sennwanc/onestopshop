@@ -6,6 +6,8 @@
 @import url("https://use.typekit.net/ugo0azz.css");
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
 @import url("https://use.typekit.net/ugo0azz.css");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap");
+@import url("https://use.typekit.net/ugo0azz.css");
 h1, h2, h3, h4, h5, h6 {
   font-family: "filicudi-solid", sans-serif;
 }
@@ -41,9 +43,11 @@ p, span {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 30vh;
 }
 
 .navigation .nav-logo {
+  content: url("../../images/logo-small-onestopshop.svg");
   height: 100px;
 }
 
@@ -85,9 +89,59 @@ p, span {
   text-align: center;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
   .navigation {
     height: 20vh;
+  }
+  .navigation .nav-logo {
+    content: url("../../images/logo-onestopshop.svg");
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "filicudi-solid", sans-serif;
+}
+
+h1 {
+  color: #304269;
+}
+
+h2 {
+  color: #91bed4;
+}
+
+h3, h4, h5, h6 {
+  color: #bddbf2;
+}
+
+p, span {
+  font-family: "Catamaran", sans-serif;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.persona-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
+.persona-text ul {
+  list-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .persona-second {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -132,33 +186,14 @@ p, span {
   font-weight: bold;
 }
 
-@media screen and (min-width: 900px) {
+#welkom {
+  min-height: 70vh;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
   #welkom {
     min-height: 80vh;
-    position: relative;
-  }
-}
-
-.persona-second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-}
-
-.persona-text ul {
-  list-style: none;
-}
-
-@media screen and (min-width: 900px) {
-  .persona-second {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
   }
 }
 
@@ -193,7 +228,13 @@ p, span {
   z-index: -1;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
+  .welkom-colourbox {
+    top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
   .welkom-colourbox {
     top: 0;
   }
@@ -224,7 +265,7 @@ p, span {
 }
 
 .welkom-images {
-  width: 25vh;
+  width: 20vh;
 }
 
 .welkom-images img {
@@ -243,5 +284,11 @@ p, span {
 
 .persona-images img {
   height: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .welkom-images {
+    width: 25vh;
+  }
 }
 /*# sourceMappingURL=index.css.map */

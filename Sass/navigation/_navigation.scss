@@ -4,7 +4,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: 30vh;
 	.nav-logo{
+		content:url('../../images/logo-small-onestopshop.svg');
 		height: 100px;
 	}
 
@@ -41,9 +43,13 @@
 }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
 	.navigation{
 		height: 20vh;
+
+		.nav-logo{
+			content:url('../../images/logo-onestopshop.svg');
+		}
 	}
 }
 

@@ -4,12 +4,16 @@
 	position: absolute;
 	right: 0;
 	width: 55%;
-	// height: 60vh;
-	// background-color: $color-orangelight;
 	z-index: -1;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
+	.welkom-colourbox{
+		top: 0;
+	}
+}
+
+@media screen and (min-width: 768px){
 	.welkom-colourbox{
 		top: 0;
 	}
