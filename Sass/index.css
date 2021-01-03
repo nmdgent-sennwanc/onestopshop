@@ -205,6 +205,42 @@ p, span {
   margin-left: 1rem;
 }
 
+.row1-business, .row2-business {
+  min-height: 25vh;
+}
+
+.row1-business div, .row2-business div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.row1-business div h3, .row2-business div h3 {
+  color: #ffffff;
+  padding: 4px 8px;
+  background-color: #ffba8d;
+}
+
+.row2-business {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media screen and (min-width: 1200px) {
   .row1-problemen {
     -webkit-box-pack: justify;
@@ -235,6 +271,26 @@ p, span {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .row1-business, .row2-business {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .row1-business div, .row2-business div {
+    text-align: left;
+  }
+  .row2-business {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .row2-business div {
+    text-align: right;
   }
 }
 
@@ -448,7 +504,7 @@ p, span {
 }
 
 .slideshow-container .number-box .numbertext {
-  color: #f2f2f2;
+  color: #ffffff;
   font-size: 12px;
   padding: 8px 12px;
   width: 100%;

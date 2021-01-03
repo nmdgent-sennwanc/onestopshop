@@ -58,6 +58,28 @@
     }
 }
 
+// BUSINESS MODEL
+.row1-business, .row2-business{
+    min-height: 25vh;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        h3{ 
+            color: $color-white;
+            padding: 4px 8px;
+            background-color: $color-orangelight;
+        }
+    }
+}
+
+.row2-business{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+
 @media screen and (min-width: 1200px) {
     // PROBLEMEN
 	.row1-problemen{
@@ -78,5 +100,22 @@
         justify-content: space-between;
         flex-direction: row;
         
+    }
+}
+
+@media screen and (min-width: 768px){
+    // BUSINESS MODEL
+    .row1-business, .row2-business{
+        justify-content: space-between;
+        div{
+            text-align: left;
+        }
+    }
+
+    .row2-business{
+        flex-direction: row;
+        div{
+            text-align: right;
+        }
     }
 }
