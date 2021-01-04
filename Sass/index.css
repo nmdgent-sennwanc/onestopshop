@@ -598,6 +598,8 @@ p, span {
 /* Style the back side */
 .flip-card-back {
   background-color: #304269;
+  text-align: left;
+  padding: 2rem;
   color: white;
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
