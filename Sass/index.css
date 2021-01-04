@@ -50,7 +50,7 @@ p, span {
 }
 
 .navigation .nav-logo {
-  content: url("../../images/logo-small-onestopshop.svg");
+  content: url("../images/logo-small-onestopshop.svg");
   height: 100px;
 }
 
@@ -97,7 +97,7 @@ p, span {
     height: 20vh;
   }
   .navigation .nav-logo {
-    content: url("../../images/logo-onestopshop.svg");
+    content: url("../images/logo-onestopshop.svg");
   }
 }
 
@@ -527,7 +527,6 @@ p, span {
   background-color: #304269;
 }
 
-/* Fading animation */
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 576px) {
   .text {
