@@ -86,6 +86,21 @@
     justify-content: center;
 }
 
+.tarot-start{
+    display: flex;
+    justify-content: center;
+}
+
+.tarot-center{
+    display: flex;
+    justify-content: center;
+}
+
+.tarot-end{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width: 1200px) {
     // PROBLEMEN
 	.row1-problemen{
@@ -107,6 +122,26 @@
         flex-direction: row;
         
     }
+    // EHTIEK
+    .row-ethiek{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tarot-start{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .tarot-center{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tarot-end{
+        display: flex;
+        justify-content: flex-end;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -123,10 +158,5 @@
         div{
             text-align: right;
         }
-    }
-
-    .row-ethiek{
-        display: flex;
-        justify-content: center;
     }
 }
