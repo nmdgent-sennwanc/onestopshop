@@ -49,7 +49,7 @@ p, span {
           align-items: center;
 }
 
-.navigation .nav-logo {
+.navigation .responsive-logo {
   content: url("../images/logo-small-onestopshop.svg");
   height: 100px;
 }
@@ -96,7 +96,7 @@ p, span {
   .navigation {
     height: 20vh;
   }
-  .navigation .nav-logo {
+  .navigation .responsive-logo {
     content: url("../images/logo-onestopshop.svg");
   }
 }
