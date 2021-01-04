@@ -89,24 +89,6 @@
   background-color: $color-bluedark;
 }
 
-/* Fading animation */
-// .fade {
-//   -webkit-animation-name: fade;
-//   -webkit-animation-duration: 7.5s;
-//   animation-name: fade;
-//   animation-duration: 7.5s;
-// }
-
-// @-webkit-keyframes fade {
-//   from {opacity: .8} 
-//   to {opacity: 1}
-// }
-
-// @keyframes fade {
-//   from {opacity: .8} 
-//   to {opacity: 1}
-// }
-
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 576px) {
   .text {font-size: 11px}
