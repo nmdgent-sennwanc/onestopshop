@@ -80,6 +80,12 @@
     justify-content: center;
 }
 
+// ETHIEK
+.row-ethiek{
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (min-width: 1200px) {
     // PROBLEMEN
 	.row1-problemen{
@@ -117,5 +123,10 @@
         div{
             text-align: right;
         }
+    }
+
+    .row-ethiek{
+        display: flex;
+        justify-content: center;
     }
 }
